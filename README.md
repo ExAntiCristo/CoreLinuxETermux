@@ -33,3 +33,5 @@ Agradeço à Deus pelo Github, e aos sites:
 
 http://www.tinycorelinux.net
 
+https://f-droid.org/en/packages/com.termux/
+
