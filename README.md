@@ -29,27 +29,51 @@ $ busybox tar -xf mydata.tgz
 
 $ busybox sh RodarEsteProgramaPelaPrimeiraVezNoTermux.sh
 
-No Windows 7 bits 64 bits foi baixado o busybox 32 bits com o comando:
+Pretendo usar Linux somente, mas reconheço que o Microsoft Windows suporta o busybox e o curl, essenciais para dar o suporte ao arquivo n.tar.gz, com comandos idênticos ao da instalação do Termux.
+
+Basta digitar no "Prompt de Comando":
 
 - Para Google Chrome:
 
 start chrome https://frippery.org/files/busybox/busybox.exe
 
+start chrome https://curl.se/windows/dl-8.11.0_4/curl-8.11.0_4-win32-mingw.zip
+
 - Para Firefox:
 
 start firefox https://frippery.org/files/busybox/busybox.exe
 
-Comando para abrir o terminal busybox:
+start firefox https://curl.se/windows/dl-8.11.0_4/curl-8.11.0_4-win32-mingw.zip
 
-%USERPROFILE%\Downloads\busybox.exe sh
+- Para MsEdge:
+
+start msedge https://frippery.org/files/busybox/busybox.exe
+
+start msedge https://curl.se/windows/dl-8.11.0_4/curl-8.11.0_4-win32-mingw.zip
+
+- Mover o busybox.exe para a Área de Trabalho:
+
+mv %USERPROFILE%\Downloads\busybox.exe %USERPROFILE%\Desktop\
+
+- Comando para abrir o terminal busybox:
+
+%USERPROFILE%\Desktop\busybox.exe sh 
 
 Comandos finais:
 
-$ cd 
+$ mv ~/Downloads/curl-8.11.0_4-win32-mingw.zip ~/Desktop/
+
+$ cd ~/Desktop/
+
+$ unzip curl-8.11.0_4-win32-mingw.zip
+
+$ export PATH=~/Desktop/curl-8.11.0_4-win32-mingw/bin:$PATH
 
 Agradeço à Deus pelo Github, e aos sites:
 
 http://www.tinycorelinux.net
 
 https://f-droid.org/en/packages/com.termux/
+
+https://www.microsoft.com
 
