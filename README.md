@@ -28,3 +28,8 @@ $ busybox mv n.tar.gz mydata.tgz
 $ busybox tar -xf mydata.tgz
 
 $ busybox sh RodarEsteProgramaPelaPrimeiraVezNoTermux.sh
+
+Agradeço à Deus pelo Github, e aos sites:
+
+http://www.tinycorelinux.net
+
