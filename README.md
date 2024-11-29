@@ -29,6 +29,24 @@ $ busybox tar -xf mydata.tgz
 
 $ busybox sh RodarEsteProgramaPelaPrimeiraVezNoTermux.sh
 
+No Windows 7 bits 64 bits foi baixado o busybox 32 bits com o comando:
+
+- Para Google Chrome:
+
+start chrome https://frippery.org/files/busybox/busybox.exe
+
+- Para Firefox:
+
+start firefox https://frippery.org/files/busybox/busybox.exe
+
+Comando para abrir o terminal busybox:
+
+%USERPROFILE%\Downloads\busybox.exe sh
+
+Comandos finais:
+
+$ cd 
+
 Agradeço à Deus pelo Github, e aos sites:
 
 http://www.tinycorelinux.net
