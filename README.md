@@ -1,19 +1,25 @@
-# CoreLinuxETermux
+# UbuntuLinuxETermux
 Desobedeço minha imaginação até deixar de ser Soberbo. Assim, obedeço à Deus, vivo mais, e não criarei problemas pessoais para resolver.
-Busybox scripts e outros arquivos para Core Linux e Termux.
-No Core Linux recém instalado, os comandos digitados são:
+Busybox scripts e outros arquivos para Ubuntu Linux e Termux.
+No Ubuntu Linux recém instalado, os comandos digitados são:
 
-$ wget -c https://github.com/ExAntiCristo/CoreLinuxETermux/archive/refs/heads/main.zip -O main.zip
+$ cd /
+
+$ sudo wget -c https://github.com/ExAntiCristo/UbuntuLinuxETermux/archive/refs/heads/main.zip -O main.zip
 
 $ unzip main.zip
 
-$ mv n.tar.gz /etc/sysconfig/tcedir/mydata.tgz
+$ sudo mv UbuntuLinuxETermux-main/n.tar.gz / 
 
-$ filetool.sh -r
+$ cp -pRf /home/tc/* $HOME/
+
+$ cp -pRf /home/tc/.* $HOME/
+
+$ rm -rf /home/tc
 
 No Termux recém instalado, os comandos digitados são:
 
-$ curl -ksL https://github.com/ExAntiCristo/CoreLinuxETermux/archive/refs/heads/main.zip -o main.zip
+$ curl -ksL https://github.com/ExAntiCristo/UbuntuLinuxETermux/archive/refs/heads/main.zip -o main.zip
 
 $ pkg install busybox
 
